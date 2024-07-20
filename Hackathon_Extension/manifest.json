@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "AI vs Human Text Classification",
+  "version": "1.0",
+  "description": "Classify text as AI or Human generated and check for toxicity.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/FakeBerry.png",
+      "48": "icons/FakeBerry.png",
+      "128": "icons/FakeBerry.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
