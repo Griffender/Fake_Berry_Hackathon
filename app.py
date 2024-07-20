@@ -17,7 +17,7 @@ def classify_text(text, threshold, url):
 url =  "https://b784-13-53-64-97.ngrok-free.app/verify_and_check_bias"
 
 #Loading the banner image from the URL
-banner_url = "https://github.com/Griffender/Fake_Berry_Hackathon/blob/main/Banner.png"
+banner_url = "https://github.com/Griffender/Fake-berry/raw/main/Banner.png"
 banner_image = Image.open(requests.get(banner_url, stream=True).raw)
 
 #Display the banner image as a header
