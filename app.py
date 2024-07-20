@@ -31,7 +31,7 @@ st.write("Craft Your Query: Unmask Bias, Confirm Fairness and validate Authentic
 left_col, right_col = st.columns(2)
 
 # Input text box to capture user's input
-input_text = left_col.text_area("Input Text", height=200)
+#input_text = left_col.text_area("Input Text", height=200)
 ai_score_threshold = left_col.slider("AI Score Threshold", 0.0, 1.0, 0.5)
 
 if left_col.button("Classify"):
