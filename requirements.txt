@@ -12,3 +12,4 @@ transformers
 safetensors
 accelerate
 plotly
+protobuf==3.20.3
